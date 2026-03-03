@@ -1,0 +1,41 @@
+{
+  "document": {
+    "width": 1080,
+    "height": 1080,
+    "resolution": 72,
+    "colorMode": "RGB",
+    "colorProfile": "sRGB IEC61966-2.1",
+    "fill": "transparent"
+  },
+  "layers": [
+    {
+      "name": "01_BACKGROUND",
+      "type": "group",
+      "children": [
+        { "name": "BG_SMART", "type": "smartObject" }
+      ]
+    },
+    {
+      "name": "02_PRODUCT",
+      "type": "group",
+      "children": [
+        { "name": "PRODUCT_SMART", "type": "smartObject" }
+      ]
+    }
+  ],
+  "smartObjects": [
+    { "name": "BG_SMART", "group": "01_BACKGROUND" },
+    { "name": "PRODUCT_SMART", "group": "02_PRODUCT" }
+  ],
+  "exportSizes": [
+    { "name": "Social_1080x1080", "width": 1080, "height": 1080 },
+    { "name": "Social_1080x1350", "width": 1080, "height": 1350 },
+    { "name": "Social_1080x1920", "width": 1080, "height": 1920 },
+    { "name": "Display_300x250", "width": 300, "height": 250 },
+    { "name": "Display_728x90", "width": 728, "height": 90 },
+    { "name": "Display_160x600", "width": 160, "height": 600 },
+    { "name": "Display_300x600", "width": 300, "height": 600 },
+    { "name": "Ecommerce_2000x2000", "width": 2000, "height": 2000 },
+    { "name": "Ecommerce_1200x628", "width": 1200, "height": 628 }
+  ]
+}
